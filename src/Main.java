@@ -34,5 +34,6 @@ public class Main {
             int p = i + 1;
             System.out.println("x[" + p + "] = " + solution[i]);
         }
+        System.out.println(CountingBinaryDigitsAlg.countingBinaryDigits(10));
     }
 }
