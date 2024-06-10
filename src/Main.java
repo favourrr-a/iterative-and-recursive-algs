@@ -41,5 +41,6 @@ public class Main {
             int p = i + 1;
             System.out.println("Term " + p + ": "+ fibSeq[i]);
         }
+        TowerOfHanoiAlg.towerOfHanoi(5, 'A', 'C', 'B');
     }
 }
