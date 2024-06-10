@@ -19,5 +19,20 @@ public class Main {
             }
             System.out.println();
         }
+
+        double[][] A = {
+                {2, 1, -1},
+                {-3, -1, 2},
+                {-2, 1, 2}
+        };
+        double[] b = {8, -11, -3};
+
+        double[] solution = GaussianEliminationAlg.gaussianElimination(A, b);
+
+        System.out.println("Solution:");
+        for (int i = 0; i < solution.length; i++) {
+            int p = i + 1;
+            System.out.println("x[" + p + "] = " + solution[i]);
+        }
     }
 }
