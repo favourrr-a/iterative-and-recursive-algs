@@ -36,5 +36,10 @@ public class Main {
         }
         System.out.println(CountingBinaryDigitsAlg.countingBinaryDigits(10));
         System.out.println(FactorialAlg.factorial(4));
+        int[] fibSeq = FibonacciAlg.fibonacci(7);
+        for(int i = 0; i < fibSeq.length; i++){
+            int p = i + 1;
+            System.out.println("Term " + p + ": "+ fibSeq[i]);
+        }
     }
 }
